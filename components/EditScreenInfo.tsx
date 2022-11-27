@@ -25,7 +25,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
 
         <Text
           style={styles.getStartedText}
-          lightColor="rgba(0,0,0,0.8)"
+          lightColor="#308077"
           darkColor="rgba(255,255,255,0.8)">
           Change any of the text, save the file, and your app will automatically update.
         </Text>
@@ -44,7 +44,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
 
 function handleHelpPress() {
   WebBrowser.openBrowserAsync(
-    'https://docs.expo.io/get-started/create-a-new-app/#opening-the-app-on-your-phonetablet'
+    'https://nike.com'
   );
 }
 
